@@ -41,9 +41,19 @@
                     <img src="/700.jpeg" alt="" width="300px">
                   </div>
                   <div class="card-footer">
-                    <div class="text-right">
-                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KmEG47zJFkplTJ" async> </script> </form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-right">
+                                <h3><b>₹700</b></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-right">
+                                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KmEG47zJFkplTJ" async> </script> </form>
+                            </div>
+                        </div>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -53,37 +63,72 @@
                     <img src="/1100.jpeg" alt="" width="300px">
                   </div>
                   <div class="card-footer">
-                    <div class="text-right">
-                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KmECvCmEr9NPYM" async> </script> </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-6 d-flex align-items-stretch">
-                <div class="card bg-light">
-                  <div class="card-body pt-0">
-                    <img src="/2200.jpeg" alt="" width="300px">
-                  </div>
-                  <div class="card-footer">
-                    <div class="text-right">
-                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KmEZ8jwIuguRKz" async> </script> </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-6 d-flex align-items-stretch">
-                <div class="card bg-light">
-                  <div class="card-body pt-0">
-                    <img src="/2400.jpeg" alt="" width="300px">
-                  </div>
-                  <div class="card-footer">
-                    <div class="text-right">
-                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KmEZj7rIoJsfh0" async> </script> </form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-right">
+                                <h3><b>₹1100</b></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-right">
+                                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KmECvCmEr9NPYM" async> </script> </form>
+                            </div>
+                        </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            {{-- <div class="row d-flex align-items-stretch">
+                <div class="col-12 col-sm-4 col-md-4 d-flex align-items-stretch"></div>
+                <div class="col-12 col-sm-1 col-md-1 d-flex align-items-stretch">
+                    <img src="/logo.png" alt="" width="80px" style="margin-left: 35px">
+                  </div>
+            </div> --}}
+            <div class="row d-flex align-items-stretch">
+                <div class="col-12 col-sm-6 col-md-6 d-flex align-items-stretch">
+                  <div class="card bg-light">
+                    <div class="card-body pt-0">
+                      <img src="/2200.jpeg" alt="" width="300px">
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-right">
+                                    <h3><b>₹2200</b></h3>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-right">
+                                    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KmEZ8jwIuguRKz" async> </script> </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 d-flex align-items-stretch">
+                  <div class="card bg-light">
+                    <div class="card-body pt-0">
+                      <img src="/2400.jpeg" alt="" width="300px">
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-right">
+                                    <h3><b>₹2400</b></h3>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-right">
+                                    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KmEZj7rIoJsfh0" async> </script> </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
           <!-- /.card-footer -->
         </div>
